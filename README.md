@@ -13,28 +13,28 @@ Kelas      : TI.22.B.1
 ![Gambar Git SCM](Screenshot/1.png)
 
 * Setelah file terdownload, silahkan lakukan instalasi dengan referensi berikut ini : [Git Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-![Gambar Installation Guide](screenshot/2.png)
+![Gambar Installation Guide](Screenshot/2.png)
 
 * Setelah proses installasi selesai, silahkan buka *software* **GitBash** pada menu di Windows, dan lakukan pengecekan versi, dengan mengetik syntax berikut :
     > git --version
 
-    ![Git Pict Version Check](screenshot/3.png)
+    ![Git Pict Version Check](Screenshot/3.png)
 
     * Jika muncul tampilan git version, berarti Git sudah berhasil di install dan bisa digunakan. Langkah pertama kita harus mengkonfigurasi user nama dan email di Git, dengan mengetikkan *syntax* berikut :
 > git config --global user.name "Masukkan Nama Anda disini"
 > git config --global user.email "Masukkan Email Anda disini"
 
-![Picture - Add User](screenshot/4.png)
+![Picture - Add User](Screenshot/4.png)
 
 Setelah diisi, silahkan lakukan pengecekan user nama dan email, dengan mengetikkan perintah berikut :
 > git config --global user.name
 > git config --global user.email
 
-![Picture - Cek User](screenshot/5.png)
+![Picture - Cek User](Screenshot/5.png)
 
 * Silahkan Buat akun di [GitHub](https://github.com) , seperti contoh dibawah ini. Dan lakukan *verifikasi* akun melalui email yang sudah terdaftar.
  
-![Picture Github SignUp](screenshot/6.png)
+![Picture Github SignUp](Screenshot/6.png)
 
 * Jika akun GitHub sudah selesai dibuat dan diverifikasi, Proses selanjutnya silahkan buat *Repository* seperti gamabr dibawah ini.
 **Noted** : 
@@ -45,37 +45,37 @@ Setelah diisi, silahkan lakukan pengecekan user nama dan email, dengan mengetikk
 > * Add .gitignore : Merupakan  sebuah file yang berisi daftar nama-nama file dan direktori yang akan diabaikan oleh Git.
 > * Choose a license : Silahkan centang jika Anda memiliki lisensi pada repository yang akan dibuat
 Kemudian tekan tombol **Create Repository** untuk menyimpan
-![Picture Create Github Repository](screenshot/7.png)
+![Picture Create Github Repository](Screenshot/7.png)
 
 * Jika repository sudah dibuat maka akan muncul tampilan seperti dibawah ini :
-![Picture - Github View 1](screenshot/8.png)
+![Picture - Github View 1](Screenshot/8.png)
 
 * Proses pembuatan akun dan repository pada Github telah selesai, saat ini akan kita lakukan untuk *me-remote* repository Github pada GitBash Lokal. Bagaimana caranya?
 Langkah pertama kita harus menyalin *link URL* git kita di Github, dengan cara tekan tombol **Code** lalu klik *Copy*.
 
-![Picture - Copy Link Github](screenshot/9.png)
+![Picture - Copy Link Github](Screenshot/9.png)
 
 * Setelah *Link URL* git kita ter*copy*, Silahkan buka File Explorer pada Windows, kemudian pilih folder dimana kita akan men*download* Repository dari Github ke lokal. Kemudian Klik Kanan, Pilih ***Git Bash Here***.
-![Picture - Git Bash Here](screenshot/10.png)
+![Picture - Git Bash Here](Screenshot/10.png)
 
 * *Pop Up* Command Prompt (CMD) akan terbuka. Pada proses ini kita akan melakukan download file repository yang tadi dibuat, dengan mengetikkan *syntax* berikut :
 > git clone [URL]
 Pada contohnya, saya akan memasukkan *git clone https://github.com/Suwandawijaya/LatihanVCS.git*
-![Picture Git Clone](screenshot/11.png)
+![Picture Git Clone](Screenshot/11.png)
 
 * Setelah proses cloning selesai, pada saat ini kita masih pada folder awal (master), kita harus masuk kedalam folder yang telah dicloning tadi yaitu *LatihanVCS* dengan mengetikkan *syntax* berikut :
 > cd LatihanVCS/
 
-![Picture Pilih Direktori](screenshot/12.png)
+![Picture Pilih Direktori](Screenshot/12.png)
 
 * Saat ini kita sudah masuk kedalam folder *LatihanVCS*, Silahkan edit file **README.md** yang ada di File Explorer. Bisa menggunakan Text Editor (*Sublime Text, Notepad, Notepad++, Visual Studio Code*). Edit sesuai dengan keinginan. Aturan file .md (Markdown) bisa dilihat di Link berikut ini : [Click Here](https://guides.github.com/features/mastering-markdown/)
-![Picture - README.md Edited](screenshot/13.png)
+![Picture - README.md Edited](Screenshot/13.png)
 
 Setelah file README.md diedit, silahkan Simpan file tersebut dengan cara **CTRL+S** atau **File -> Save**
 
 * Langkah selanjutnya setelah file disimpan, kita kembali pada App Git Bash (CMD). Ketik pada Git Bash seperti berikut ini :
 > git add .
 
-![Picture - Git Add](screenshot/14.png)
+![Picture - Git Add](Screenshot/14.png)
 
 ssssssss
